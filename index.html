@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnson - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <h2>Alex Johnson</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#goals" class="nav-link">Career Goals</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-name">Alex Johnson</h1>
+                    <h2 class="hero-title">Software Engineer & Student</h2>
+                    <p class="hero-tagline">Building innovative solutions through code</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn--primary btn--lg">View My Work</a>
+                        <a href="#resume" class="btn btn--outline btn--lg">Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-placeholder">
+                        <svg width="200" height="200" viewBox="0 0 200 200" fill="none">
+                            <circle cx="100" cy="100" r="100" fill="var(--color-secondary)"/>
+                            <circle cx="100" cy="75" r="35" fill="var(--color-text-secondary)"/>
+                            <path d="M40 160 C40 130, 65 120, 100 120 C135 120, 160 130, 160 160 L160 200 L40 200 Z" fill="var(--color-text-secondary)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Statement Section -->
+    <section id="goals" class="profile-statement">
+        <div class="container">
+            <h2 class="section-title">Career Goals</h2>
+            <div class="profile-content">
+                <p class="profile-text">My goal is to leverage my software engineering skills and academic foundation to develop scalable, user-focused applications that solve real-world problems. I aim to contribute to innovative projects while continuously learning emerging technologies and growing into a senior technical role where I can mentor others and drive impactful solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="bio-section">
+                        <p>I am currently balancing my passion for technology as a part-time software engineer while pursuing my computer science degree full-time. This dual experience has given me both practical industry knowledge and strong theoretical foundations. My journey into software engineering began during my first programming course, where I discovered my love for problem-solving through code.</p>
+                        
+                        <p>When I'm not coding or studying, I enjoy staying active through bodybuilding, which has taught me discipline and goal-setting skills that I apply to my professional development. Gaming has been another lifelong passion that sparked my initial interest in technology and continues to inspire me to create engaging user experiences. I believe in maintaining a healthy work-life balance while pursuing excellence in all areas of my life.</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <strong>Email:</strong> alex.johnson@example.com
+                            </div>
+                            <div class="contact-item">
+                                <strong>Phone:</strong> (555) 123-4567
+                            </div>
+                            <div class="contact-item">
+                                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/alexjohnson" target="_blank">linkedin.com/in/alexjohnson</a>
+                            </div>
+                            <div class="contact-item">
+                                <strong>GitHub:</strong> <a href="https://github.com/alexjohnson" target="_blank">github.com/alexjohnson</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Node.js</span>
+                        <span class="skill-badge">SQL</span>
+                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge">AWS</span>
+                        <span class="skill-badge">Docker</span>
+                        <span class="skill-badge">MongoDB</span>
+                        <span class="skill-badge">REST APIs</span>
+                        <span class="skill-badge">Agile Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Professional Work</h2>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" fill="none">
+                                <rect width="300" height="200" fill="var(--color-bg-1)"/>
+                                <text x="150" y="100" text-anchor="middle" fill="var(--color-text-secondary)" font-size="14">Web Application</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management Web Application</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <p class="project-description">A full-stack web application that allows teams to collaborate on projects, track progress, and manage deadlines. Features include real-time updates, user authentication, and responsive design. This project demonstrates my ability to build complete web applications with modern technologies and create intuitive user interfaces.</p>
+                        <a href="#" class="project-link btn btn--outline btn--sm">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" fill="none">
+                                <rect width="300" height="200" fill="var(--color-bg-2)"/>
+                                <text x="150" y="100" text-anchor="middle" fill="var(--color-text-secondary)" font-size="14">Database Design</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Database Design</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <p class="project-description">Designed and implemented a comprehensive database schema for an e-commerce platform, including customer management, inventory tracking, and order processing. Optimized queries for performance and implemented proper indexing strategies. This project shows my database design skills and understanding of complex data relationships.</p>
+                        <a href="#" class="project-link btn btn--outline btn--sm">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" fill="none">
+                                <rect width="300" height="200" fill="var(--color-bg-3)"/>
+                                <text x="150" y="100" text-anchor="middle" fill="var(--color-text-secondary)" font-size="14">Mobile App</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mobile Fitness Tracker</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <p class="project-description">Cross-platform mobile application that tracks workouts, nutrition, and fitness goals. Integrated with wearable devices and includes social features for motivation. This project demonstrates my mobile development capabilities and ability to integrate with external APIs and services.</p>
+                        <a href="#" class="project-link btn btn--outline btn--sm">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg width="100%" height="200" viewBox="0 0 300 200" fill="none">
+                                <rect width="300" height="200" fill="var(--color-bg-4)"/>
+                                <text x="150" y="100" text-anchor="middle" fill="var(--color-text-secondary)" font-size="14">CLI Tool</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Open Source CLI Tool</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">GitHub Actions</span>
+                            <span class="tech-tag">PyPI</span>
+                        </div>
+                        <p class="project-description">Developed and published a command-line tool that automates common development tasks. The tool has been downloaded over 1,000 times and has received contributions from other developers. This project showcases my ability to create useful developer tools and contribute to the open source community.</p>
+                        <a href="#" class="project-link btn btn--outline btn--sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-actions">
+                    <button class="btn btn--primary">Download PDF</button>
+                    <button class="btn btn--outline">Print Resume</button>
+                </div>
+                
+                <div class="resume-sections">
+                    <div class="resume-section">
+                        <h3>Education</h3>
+                        <div class="resume-item">
+                            <div class="resume-header">
+                                <h4>Bachelor of Science in Computer Science</h4>
+                                <span class="resume-date">Expected 2026</span>
+                            </div>
+                            <p class="resume-org">State University</p>
+                            <p class="resume-detail">GPA: 3.8/4.0 • Dean's List: Fall 2023, Spring 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3>Experience</h3>
+                        <div class="resume-item">
+                            <div class="resume-header">
+                                <h4>Part-time Software Engineer</h4>
+                                <span class="resume-date">2023 - Present</span>
+                            </div>
+                            <p class="resume-org">Tech Startup Inc.</p>
+                            <p class="resume-detail">Develop and maintain web applications using React and Node.js. Collaborate with cross-functional teams to deliver features on schedule. Participated in code reviews and implemented automated testing strategies.</p>
+                        </div>
+                        
+                        <div class="resume-item">
+                            <div class="resume-header">
+                                <h4>Software Development Intern</h4>
+                                <span class="resume-date">Summer 2023</span>
+                            </div>
+                            <p class="resume-org">Local Software Company</p>
+                            <p class="resume-detail">Built internal tools using Python and Django. Optimized database queries resulting in 40% performance improvement. Worked closely with senior developers to learn best practices.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <div class="resume-header">
+                                <h4>Computer Science Student</h4>
+                                <span class="resume-date">2022 - Present</span>
+                            </div>
+                            <p class="resume-org">State University</p>
+                            <p class="resume-detail">Pursuing Bachelor's degree in Computer Science with focus on software engineering, algorithms, and system design. Relevant coursework: Data Structures, Algorithm Analysis, Database Systems, Software Engineering.</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-categories">
+                            <div class="skill-category">
+                                <strong>Programming Languages:</strong> JavaScript, Python, Java, SQL, HTML/CSS
+                            </div>
+                            <div class="skill-category">
+                                <strong>Frameworks & Libraries:</strong> React, Node.js, Express, Django, React Native
+                            </div>
+                            <div class="skill-category">
+                                <strong>Tools & Technologies:</strong> Git, AWS, Docker, MongoDB, PostgreSQL, Firebase
+                            </div>
+                            <div class="skill-category">
+                                <strong>Development Practices:</strong> Agile Development, REST APIs, Test-Driven Development, CI/CD
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container">
+                    <div class="contact-methods">
+                        <h3>Contact Information</h3>
+                        <div class="contact-method">
+                            <strong>Email:</strong>
+                            <a href="mailto:alex.johnson@example.com">alex.johnson@example.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <strong>Phone:</strong>
+                            <a href="tel:+15551234567">(555) 123-4567</a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h3>Connect With Me</h3>
+                        <div class="social-buttons">
+                            <a href="https://linkedin.com/in/alexjohnson" target="_blank" class="btn btn--outline">LinkedIn</a>
+                            <a href="https://github.com/alexjohnson" target="_blank" class="btn btn--outline">GitHub</a>
+                            <a href="mailto:alex.johnson@example.com" class="btn btn--outline">Email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Alex Johnson. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
